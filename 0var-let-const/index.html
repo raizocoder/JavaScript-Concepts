@@ -1,11 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
     <title>Var let const</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <h1>Comparison Between var, let, and const</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Feature</th>
+          <th>var</th>
+          <th>let</th>
+          <th>const</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Scope</td>
+          <td>Function-scoped</td>
+          <td>Block-scoped</td>
+          <td>Block-scoped</td>
+        </tr>
+        <tr>
+          <td>Hoisting</td>
+          <td>Hoisted but initialized as <code>undefined</code></td>
+          <td>Hoisted but not initialized</td>
+          <td>Hoisted but not initialized</td>
+        </tr>
+        <tr>
+          <td>Redeclaration</td>
+          <td>Allowed</td>
+          <td>Not allowed in the same scope</td>
+          <td>Not allowed in the same scope</td>
+        </tr>
+        <tr>
+          <td>Reassignment</td>
+          <td>Allowed</td>
+          <td>Allowed</td>
+          <td>Not allowed</td>
+        </tr>
+        <tr>
+          <td>Temporal Dead Zone</td>
+          <td>No</td>
+          <td>Yes</td>
+          <td>Yes</td>
+        </tr>
+        <tr>
+          <td>Initialization</td>
+          <td>Optional</td>
+          <td>Optional</td>
+          <td>Required</td>
+        </tr>
+        <tr>
+          <td>Global Object Binding</td>
+          <td>Yes, if declared in global scope</td>
+          <td>No</td>
+          <td>No</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
 </html>
