@@ -1,10 +1,9 @@
 // Difference between var let and const
 //(1) Declaration and Assignment in separate lines
-//(2) Redecoration and Reassignment
-//(3) Scopes
-//(4) Hoisting
-//(5) Hoisting
-//(6) Store
+//(2) Redecoration and Reassignment with same name or variable
+//(3) Hoisting
+//(4) Scopes
+//(5) Store
 
 //(1) Declaration and Assignment in separate lines------------------>
 
@@ -44,3 +43,27 @@
 // const a = 3;
 // error comes
 // const does not have feature to reassign and redeclaration
+
+
+//(3) Hoisting ------------------------------------>
+// Hoisting means when variable calls before its declaration
+
+// console.log(a);
+// var a = 1;
+// it gives undefined 
+
+
+// console.log(a);
+// let a = 1;
+// it gives reference error , cannot access before its initialization
+
+
+// console.log(a);
+// const a = 1;
+// it gives reference error , cannot access before its initialization
+
+
+//(4) Scopes ------------------------->
+
+
+
