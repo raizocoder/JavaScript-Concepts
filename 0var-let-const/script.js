@@ -33,8 +33,6 @@
 // let y = 2;
 //  this give error because let has feature only to assign again only value not to declare with same name;
 
-
-
 // const a = 1;
 // a = 2;
 //error comes
@@ -44,26 +42,40 @@
 // error comes
 // const does not have feature to reassign and redeclaration
 
-
 //(3) Hoisting ------------------------------------>
 // Hoisting means when variable calls before its declaration
 
 // console.log(a);
 // var a = 1;
-// it gives undefined 
-
+// it gives undefined
 
 // console.log(a);
 // let a = 1;
 // it gives reference error , cannot access before its initialization
 
-
 // console.log(a);
 // const a = 1;
 // it gives reference error , cannot access before its initialization
 
-
 //(4) Scopes ------------------------->
 
+// var is function scope
 
+//  var is function scoped
+//  function one (){
+//     var a = 1;
+// console.log(a);
+//  }
+//  one()
+// console.log(a);
+// when var is defined in function and outside the function it gives error because it access only inside function only not outside.
 
+// let and const are block scope
+// It means that any curly braces inside let and const declared then it can't access outside their curly braces only inside like in function, loops , conditionals  and also include normal curly braces.
+
+// {
+//   let a = 1;
+//   const b = 2;
+// }
+// console.log(a,b);
+// it gives error
