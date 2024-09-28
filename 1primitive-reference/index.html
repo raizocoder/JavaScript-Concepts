@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+    <title>Primitive vs Reference Data Types in JavaScript</title>
+  </head>
+  <body>
+    <h1>Difference Between Primitive and Reference Data Types in JavaScript</h1>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Property</th>
+          <th>Primitive Data Types</th>
+          <th>Reference Data Types</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Data Types</td>
+          <td>Number, String, Boolean, Null, Undefined, Symbol, BigInt</td>
+          <td>Objects, Arrays, Functions</td>
+        </tr>
+        <tr>
+          <td>Memory Location</td>
+          <td>Stored directly in the stack</td>
+          <td>
+            Stored in the heap, with reference to the object stored in the stack
+          </td>
+        </tr>
+        <tr>
+          <td>Mutability</td>
+          <td>Immutable (Cannot be changed after creation)</td>
+          <td>Mutable (Can be modified after creation)</td>
+        </tr>
+        <tr>
+          <td>Comparison</td>
+          <td>Compared by value</td>
+          <td>Compared by reference</td>
+        </tr>
+        <tr>
+          <td>Copy Behavior</td>
+          <td>Creates a copy of the value</td>
+          <td>Copies the reference to the object</td>
+        </tr>
+        <tr>
+          <td>Example</td>
+          <td><code>let x = 10; let y = x;</code> (Separate copies)</td>
+          <td><code>let obj1 = {}; let obj2 = obj1;</code> (Same reference)</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
