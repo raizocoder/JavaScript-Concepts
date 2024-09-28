@@ -95,3 +95,9 @@
 // const b = 2;
 // using debugger to check let and const are stored in script scope 
 
+
+//(6) Versions
+
+// let and const are ES6 versions , they recommenced way to declare variable
+// var is used in older version like before 2015,
+
