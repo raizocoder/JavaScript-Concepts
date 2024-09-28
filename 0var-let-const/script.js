@@ -4,6 +4,7 @@
 //(3) Hoisting
 //(4) Scopes
 //(5) Store
+//(6) Versions
 
 //(1) Declaration and Assignment in separate lines------------------>
 
@@ -79,3 +80,18 @@
 // }
 // console.log(a,b);
 // it gives error
+
+//(5) Store
+
+// var and regular function are part of global object
+
+// var a = 1;
+// console.log(window);
+// a variable is present in window
+
+// let and const are not part of window object
+// debugger
+// let a = 1;
+// const b = 2;
+// using debugger to check let and const are stored in script scope 
+
