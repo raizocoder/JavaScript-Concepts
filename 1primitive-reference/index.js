@@ -4,3 +4,6 @@
 // 4 -- Mutability
 // 5 -- Copy Behavior
 // 6 -- Memory allocations 
+
+
+// 1 -- Data types
