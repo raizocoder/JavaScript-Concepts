@@ -3,4 +3,4 @@
 // 3 -- Comparison
 // 4 -- Mutability
 // 5 -- Copy Behavior
-// 6 -- Memory allocation 
+// 6 -- Memory allocations 
